@@ -5,7 +5,7 @@ export function Navbar() {
   const { isAuthenticated, logout } = useAuth();
 
   return (
-    <nav style={{ padding: '1rem', background: '#333', color: 'white' }}>
+    <nav style={{ padding: '1rem', background: '#333', color: 'white', display: 'flex', alignItems: 'center', gap: '1rem' }}>
       <Link to="/" style={{ marginRight: '1rem', color: 'white' }}>Home</Link>
       <Link to="/blog" style={{ marginRight: '1rem', color: 'white' }}>Blog</Link>
       

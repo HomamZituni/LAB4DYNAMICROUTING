@@ -8,7 +8,7 @@ import { Login } from './pages/Login';
 import { Admin } from './pages/Admin';
 
 function HomePage() {
-  return <div style={{ padding: '2rem' }}><h1>Welcome to My Blog</h1></div>;
+  return <div style={{ padding: '2rem', textAlign: 'center' }}><h1>Welcome to My Blog</h1></div>;
 }
 
 function App() {
